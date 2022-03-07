@@ -1,2 +1,2 @@
 # SBIU-V1
-Source code of SBIU(sussy baka impostor uwu V1)
+Исходный код V1.1.0 версии саси баки
