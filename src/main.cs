@@ -1,6 +1,6 @@
 /*
  * Sussy Baka Impostor uwu V1.1.0 discord bot (SBIU V1.1.0)
- * (C) HtB#1526
+ * (C) HtB#1526 2021-2022
  */
 
 using System;
