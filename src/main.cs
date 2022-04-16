@@ -2,7 +2,13 @@
  * Sussy Baka Impostor uwu V1.1.0 discord bot (SBIU V1.1.0)
  * (C) HtB#1526 2021-2022
  */
-
+/*
+    Обозначение версий саси баки:
+        D ==> не стабильная, которая не прошла тестирование (Debug)
+        S ==> стабильная, прошла аптайм 2 дня или больше (Stable)
+        NS ==> стабильная, но не прошла аптайм 2 дня или больше (Not Stable)
+        O ==> устаревшая версия (Outdated)
+*/
 using System;
 using System.Threading.Tasks;
 using Discord;
@@ -443,7 +449,7 @@ namespace SBIU_V1 //да я обновил namespace, вопросы?
                         {
                             //msg.Channel.SendMessageAsync($"1.1.0");
                             //переделал 07.03.22
-                            msg.Channel.SendMessageAsync($"sbi:v1.1.0");
+                            msg.Channel.SendMessageAsync($"sbi:v1.1.0O\nОбозначение версий саси баки:\n`D` ==> не стабильная, которая не прошла тестирование (**D**ebug)\n`S` ==> стабильная, прошла аптайм 2 дня или больше (**S**table)\n`NS` ==> стабильная, но не прошла аптайм 2 дня или больше (**N**ot **S**table)\n`O` ==> устаревшая версия (**O**utdated)");
                             break;
                         }
                 }
